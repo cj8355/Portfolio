@@ -8,13 +8,14 @@
 :root {
     --darkBlue: darkblue;
     --lightBlue: rgb(93, 189, 221);
-    --grey: rgb(75, 71, 71);
-    --lightBlue2: rgb(78, 197, 236)
+    --grey: black;
+    --lightBlue2: rgb(78, 197, 236);
+    --black:black;
 }
 header {
     font-size: 150%;
     font-family: sans-serif, Times, serif;
-    background-color: var(--grey);
+    background-color: rgb(87, 85, 85);
     color: var(--lightBlue2);
     height: 75px;
     width: 100%;
@@ -22,17 +23,18 @@ header {
 
 body{
     font-family: sans-serif, Times, serif;
-    background-color: rgb(210, 218, 221);
+    background-color: rgb(171, 177, 179);
 }
 
-header h1 {
+h1 {
     color: rgb(75, 71, 71);
     background-color: var(--lightBlue2);
     display: inline;
-    padding: 5px 10px 5px 65px;
+    padding: 5px 10px 5px 10px;
     text-transform: uppercase;
     width: 100%;
     list-style-type: none;
+    margin-left: 15px;
 }
 
 header nav ul li a {
@@ -52,6 +54,7 @@ header nav {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;  
+    float: right;
 }
 
 header nav ul {
@@ -74,7 +77,7 @@ img {
 }
 
 p {
-    color: rgba(6, 6, 128, 0.534);
+    color: rgba(128, 106, 6, 0.534);
 }
 
 .nextto {
@@ -82,7 +85,7 @@ p {
     text-align: center;
   }
   .leftside {
-    color: var(--darkBlue);
+    color: var(--black);
     margin: 0 10px 0 0;
     padding: 15px;
     font-size: 75px;
@@ -96,18 +99,17 @@ p {
   }
   
   .rightside {
-    color: var(--darkBlue);
+    color: var(--black);
     padding: 10px;
     font-size: 28px;
     line-height: 120%;
     width: 70%;
     display: inline-block;
     text-align: justify;
-    border-left: 5px solid var(--darkBlue);
-    padding: 25px;
-    margin: 0;
+    border-left: 5px solid var(--black);
+    padding-left: 15px;
+    margin: 20px;
     border-collapse: separate;
-    border-spacing: 15px 50px;
   }
 
   .Puzzle {
@@ -130,7 +132,7 @@ p {
   }
  
   .Calculator {
-    color: var(--darkBlue);
+    color: var(--black);
     font-size: 28px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -153,7 +155,7 @@ p {
   }
 
   .Report {
-    color: var(--darkBlue);
+    color: var(--black);
     font-size: 28px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -173,7 +175,7 @@ p {
   }
 
   .chess {
-    color: var(--darkBlue);
+    color: var(--black);
     font-size: 28px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -193,7 +195,7 @@ p {
   }
 
   .Game {
-    color: var(--darkBlue);
+    color: var(--black);
     font-size: 28px;
     margin: 5px;
     height: 300px;
@@ -214,7 +216,7 @@ p {
 
 .left2 {
     
-    color: var(--darkBlue);
+    color: var(--black);
     margin: 0 10px 0 0;
     padding: 15px;
     font-size: 75px;
@@ -228,16 +230,16 @@ p {
 }
 
 .codingImg2 {
-    color: var(--darkBlue);
+    color: var(--black);
     padding: 10px;
     font-size: 28px;
     line-height: 120%;
     width: 70%;
     display: inline-block;
     text-align: justify;
-    border-left: 5px solid var(--darkBlue);
-    padding: 25px;
-    margin: 0;
+    border-left: 5px solid var(--black);
+    padding-left: 15px;
+    margin: 20px;
     border-collapse: separate;
     border-spacing: 15px 50px;
     position: relative;
@@ -246,19 +248,19 @@ p {
 
 
 .left3 {
-    color: var(--darkBlue);
+    color: var(--black);
     font-size: 75px;
     line-height: 120%;
-    width: 15%;
+    width: 20%;
     display: inline-block;
     text-align: right;
-    padding: 25px;
+    padding-right: 20px;
     vertical-align: top;
-    border-right: 5px solid var(--darkBlue);
+    border-right: 5px solid var(--black);
 }
 
 .right3 {
-    color: var(--darkBlue);
+    color: var(--black);
     padding: 10px;
     font-size: 28px;
     line-height: 120%;
@@ -279,17 +281,27 @@ p {
   .first {
     position: absolute;
     color: var(--grey);
-    background-color: var(--lightBlue2);
+    /*background-color: var(--lightBlue2);*/
     padding-left: 20px;
     padding-right: 20px;
     bottom: 10%;
     right: 5%;
   }
  
+  .first p {
+    background-color: var(--lightBlue2);
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--grey);
+    text-align: center;
+  }
+
+
   .LS1 {
     position: absolute;
     color: var(--grey);
-    background-color: var(--lightBlue2);
+    /*background-color: var(--lightBlue2);*/
     padding-left: 20px;
     padding-right: 20px;
     bottom: 10%;
@@ -299,7 +311,7 @@ p {
   .RS1 {
     position: absolute;
     color: var(--grey);
-    background-color: var(--lightBlue2);
+    /*background-color: var(--lightBlue2);*/
     padding-left: 20px;
     padding-right: 20px;
     bottom: 10%;
@@ -309,11 +321,38 @@ p {
   .LS2 {
     position: absolute;
     color: var(--grey);
-    background-color: var(--lightBlue2);
+    /*background-color: var(--lightBlue2);*/
     padding-left: 20px;
     padding-right: 20px;
     bottom: 10%;
     right: 5%;
+  }
+
+  .LS2 p {
+    background-color: var(--lightBlue2);
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--grey);
+    text-align: center;
+  }
+
+  .LS1 p {
+    background-color: var(--lightBlue2);
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--grey);
+    text-align: center;
+  }
+
+  .RS1 p {
+    background-color: var(--lightBlue2);
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--grey);
+    text-align: center;
   }
 
   .RS2 {
@@ -335,7 +374,7 @@ p {
 
   .right3 ul li {
     display: inline-block;
-    color: var(--darkBlue);
+    color: var(--black);
     font-size: 28px;
     line-height: 120%;
     border-bottom: 5px solid;
@@ -345,7 +384,7 @@ p {
   }
 
   .right3 ul li a {
-    color: var(--darkBlue);
+    color: var(--black);
   }
 
   
