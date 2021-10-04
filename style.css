@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --darkBlue: darkblue;
+    --lightBlue: rgb(93, 189, 221);
+    --grey: rgb(75, 71, 71);
+    --lightBlue2: rgb(78, 197, 236)
+}
+header {
+    font-size: 150%;
+    font-family: sans-serif, Times, serif;
+    background-color: var(--grey);
+    color: var(--lightBlue2);
+    height: 75px;
+    width: 100%;
+}
+
+body{
+    font-family: sans-serif, Times, serif;
+    background-color: rgb(210, 218, 221);
+}
+
+header h1 {
+    color: rgb(75, 71, 71);
+    background-color: var(--lightBlue2);
+    display: inline;
+    padding: 5px 10px 5px 65px;
+    text-transform: uppercase;
+    width: 100%;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: var(--lightBlue2);
+    text-decoration: underline 5px;
+    text-align: center;
+    right: 10px;
+    margin: 0px 10px 0px 0px;
+}
+
+header nav {
+    float: right;
+    margin-right: 50px;
+    padding-top: 15px; 
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;  
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: 275px;
+}
+
+.image_text {
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    font-size: 25px;
+    color: var(--grey);
+    background-color: var(--lightBlue2);
+    padding: 15px;
+}
+
+p {
+    color: rgba(6, 6, 128, 0.534);
+}
+
+.nextto {
+    overflow-x:hidden;
+    text-align: center;
+  }
+  .leftside {
+    color: var(--darkBlue);
+    margin: 0 10px 0 0;
+    padding: 15px;
+    font-size: 75px;
+    line-height: 120%;
+    width: 15%;
+    display: inline-block;
+    text-align: right;
+    padding: 25px;
+    margin: 0;
+    vertical-align: top;
+  }
+  
+  .rightside {
+    color: var(--darkBlue);
+    padding: 10px;
+    font-size: 28px;
+    line-height: 120%;
+    width: 70%;
+    display: inline-block;
+    text-align: justify;
+    border-left: 5px solid var(--darkBlue);
+    padding: 25px;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+  }
+
+  .Puzzle {
+    position: relative;
+  }
+
+
+  .Puzzle img {
+    border: 5px solid var(--lightBlue);
+    height: 400px;
+  }
+
+  .Puzzle img:hover {
+    opacity: 0.7;
+  }
+
+  .nextthree {
+    overflow-x:hidden;
+    text-align: center;
+  }
+ 
+  .Calculator {
+    color: var(--darkBlue);
+    font-size: 28px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    float: left;
+    width: 40%;
+    margin: 5px;
+    position: relative;
+    border-collapse: separate;
+    border-spacing: 0;
+    
+  }
+
+  .Calculator img {
+    border: 5px solid var(--lightBlue);
+  }
+
+  .Calculator img:hover {
+    opacity: 0.7;
+  }
+
+  .Report {
+    color: var(--darkBlue);
+    font-size: 28px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+    float: left;
+    margin: 5px;
+    position: relative;
+  }
+
+  .Report img {
+    border: 5px solid var(--lightBlue);
+    
+  }
+
+  .Report img:hover {
+    opacity: 0.7;
+  }
+
+  .chess {
+    color: var(--darkBlue);
+    font-size: 28px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+    float: right;
+    margin: 5px;
+    position: relative;
+  }
+
+  .chess img {
+    border: 5px solid var(--lightBlue);
+    
+  }
+
+  .chess img:hover {
+    opacity: 0.7;
+  }
+
+  .Game {
+    color: var(--darkBlue);
+    font-size: 28px;
+    margin: 5px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    width: 40%;
+    position: relative;
+  }
+
+  .Game img {
+    border: 5px solid var(--lightBlue);
+    
+  }
+
+  .Game img:hover {
+    opacity: 0.7;
+  }
+
+.left2 {
+    
+    color: var(--darkBlue);
+    margin: 0 10px 0 0;
+    padding: 15px;
+    font-size: 75px;
+    line-height: 120%;
+    width: 15%;
+    display: inline-block;
+    text-align: right;
+    border-spacing: 0 15px 0 0;
+    padding: 25px;
+    vertical-align: top;
+}
+
+.codingImg2 {
+    color: var(--darkBlue);
+    padding: 10px;
+    font-size: 28px;
+    line-height: 120%;
+    width: 70%;
+    display: inline-block;
+    text-align: justify;
+    border-left: 5px solid var(--darkBlue);
+    padding: 25px;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+    position: relative;
+    
+}
+
+
+.left3 {
+    color: var(--darkBlue);
+    font-size: 75px;
+    line-height: 120%;
+    width: 15%;
+    display: inline-block;
+    text-align: right;
+    padding: 25px;
+    vertical-align: top;
+    border-right: 5px solid var(--darkBlue);
+}
+
+.right3 {
+    color: var(--darkBlue);
+    padding: 10px;
+    font-size: 28px;
+    line-height: 120%;
+    width: 70%;
+    display: inline-block;
+    padding: 25px;
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+}
+
+.nextfour {
+    overflow-x:hidden;
+    text-align: center;
+  }
+
+
+  .first {
+    position: absolute;
+    color: var(--grey);
+    background-color: var(--lightBlue2);
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 10%;
+    right: 5%;
+  }
+ 
+  .LS1 {
+    position: absolute;
+    color: var(--grey);
+    background-color: var(--lightBlue2);
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 10%;
+    right: 5%;
+  }
+
+  .RS1 {
+    position: absolute;
+    color: var(--grey);
+    background-color: var(--lightBlue2);
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 10%;
+    right: 5%;
+  }
+
+  .LS2 {
+    position: absolute;
+    color: var(--grey);
+    background-color: var(--lightBlue2);
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 10%;
+    right: 5%;
+  }
+
+  .RS2 {
+    position: absolute;
+    color: var(--grey);
+    background-color: var(--lightBlue2);
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 10%;
+    right: 5%;
+  }
+
+  .right3 ul {
+    float: right;
+    width: 100%;
+    margin: auto;
+    padding: 5% 0 0 0;
+  }
+
+  .right3 ul li {
+    display: inline-block;
+    color: var(--darkBlue);
+    font-size: 28px;
+    line-height: 120%;
+    border-bottom: 5px solid;
+    padding-bottom: 2px;
+    margin: 10px 3% 10px 3%;
+    
+  }
+
+  .right3 ul li a {
+    color: var(--darkBlue);
+  }
+
+  
+  
+  @media screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .left3 {
+      font-size: 30px;
+      text-align: left;
+    }
+    .leftside {
+      font-size: 30px;
+      text-align: left;
+    }
+  }
+ 
