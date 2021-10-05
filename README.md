@@ -14,4 +14,4 @@ Contact Info:
 email: charlescallender.cc@gmail.com
 
 
-![ScreenShot](./portfolio2.JPG)
+![ScreenShot](./portfolio2.jpg)
