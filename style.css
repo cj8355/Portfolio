@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 
+/*Setting the variables for different colors*/
 :root {
     --darkBlue: darkblue;
     --lightBlue: rgb(93, 189, 221);
@@ -12,20 +13,24 @@
     --lightBlue2: rgb(78, 197, 236);
     --black:black;
 }
+
+/*Setting the font size/family/color, background color and height and width.*/
 header {
     font-size: 150%;
     font-family: sans-serif, Times, serif;
     background-color: rgb(87, 85, 85);
     color: var(--lightBlue2);
-    height: 75px;
+    height: 70px;
     width: 100%;
 }
 
+/*Sets the font family and background color*/
 body{
     font-family: sans-serif, Times, serif;
     background-color: rgb(171, 177, 179);
 }
 
+/*Sets the font color and background color. Sets display, padding, transforms the text to Uppercase. Sets the width list style and a left margin.*/
 h1 {
     color: rgb(75, 71, 71);
     background-color: var(--lightBlue2);
@@ -37,6 +42,7 @@ h1 {
     margin-left: 15px;
 }
 
+/*Sets the styling and layout for the links at the top right*/
 header nav ul li a {
     color: var(--lightBlue2);
     text-decoration: underline 5px;
@@ -45,27 +51,32 @@ header nav ul li a {
     margin: 0px 10px 0px 0px;
 }
 
+/*Sets the top padding and right margin. Floats the nav right.*/
 header nav {
     float: right;
-    margin-right: 50px;
-    padding-top: 15px; 
+    margin-right: 2%;
+    padding-top: 1%; 
 }
 
+/*Sets a margin left*/
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;  
-    float: right;
+     justify-content: space-between;
+    
 }
 
+/*Removes the list style type if there is any*/
 header nav ul {
     list-style-type: none;
 }
 
+/*Sets the width to 100% and sets the height*/
 img {
     width: 100%;
     height: 275px;
 }
 
+/*Sets the positioning, font size/color and background color for the text that appears over the screenshots of the assignments*/
 .image_text {
     position: absolute;
     top: 250px;
@@ -76,14 +87,18 @@ img {
     padding: 15px;
 }
 
+/*Sets the color text*/
 p {
     color: rgba(128, 106, 6, 0.534);
 }
 
+/*Container in which the left side and right side of the page are*/
 .nextto {
     overflow-x:hidden;
     text-align: center;
   }
+
+  /*Sets the styling and alignment for the left side of the nextto container*/
   .leftside {
     color: var(--black);
     margin: 0 10px 0 0;
@@ -98,6 +113,7 @@ p {
     vertical-align: top;
   }
   
+  /*Sets the styling and alignment for the right side of the nextto container*/
   .rightside {
     color: var(--black);
     padding: 10px;
@@ -122,6 +138,7 @@ p {
     height: 400px;
   }
 
+  /*When you hover over the image it goes slightly opaque*/
   .Puzzle img:hover {
     opacity: 0.7;
   }
@@ -131,12 +148,12 @@ p {
     text-align: center;
   }
  
+  /*Sets the font size/color/family. Sets the width, height, margin, padding and position.*/
   .Calculator {
     color: var(--black);
     font-size: 28px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
     float: left;
     width: 40%;
     margin: 5px;
@@ -150,10 +167,12 @@ p {
     border: 5px solid var(--lightBlue);
   }
 
+  /*When you hover over the image it goes slightly opaque*/
   .Calculator img:hover {
     opacity: 0.7;
   }
 
+  /*Sets the font size/color/family. Sets the width, height, margin, padding and position.*/
   .Report {
     color: var(--black);
     font-size: 28px;
@@ -170,10 +189,12 @@ p {
     
   }
 
+  /*When you hover over the image it goes slightly opaque*/
   .Report img:hover {
     opacity: 0.7;
   }
 
+  /*Sets the font size/color/family. Sets the width, height, margin, padding and position.*/
   .chess {
     color: var(--black);
     font-size: 28px;
@@ -190,10 +211,12 @@ p {
     
   }
 
+  /*When you hover over the image it goes slightly opaque*/
   .chess img:hover {
     opacity: 0.7;
   }
 
+  /*Sets the font size/color/family. Sets the width, height, margin, padding and position.*/
   .Game {
     color: var(--black);
     font-size: 28px;
@@ -210,12 +233,12 @@ p {
     
   }
 
+  /*When you hover over the image it goes slightly opaque*/
   .Game img:hover {
     opacity: 0.7;
   }
 
 .left2 {
-    
     color: var(--black);
     margin: 0 10px 0 0;
     padding: 15px;
@@ -243,10 +266,9 @@ p {
     border-collapse: separate;
     border-spacing: 15px 50px;
     position: relative;
-    
 }
 
-
+/*Sets the position, text color, padding and sets alignment*/
 .left3 {
     color: var(--black);
     font-size: 75px;
@@ -261,13 +283,12 @@ p {
 
 .right3 {
     color: var(--black);
-    padding: 10px;
     font-size: 28px;
-    line-height: 120%;
+   
     width: 70%;
     display: inline-block;
-    padding: 25px;
-    margin: 0;
+    padding: 5px;
+    
     border-collapse: separate;
     border-spacing: 15px 50px;
 }
@@ -277,7 +298,7 @@ p {
     text-align: center;
   }
 
-
+/*Sets the position, text color, padding and sets alignment*/
   .first {
     position: absolute;
     color: var(--grey);
@@ -288,6 +309,7 @@ p {
     right: 5%;
   }
  
+   /*Sets the background color, margin, padding, text color and aligns the text.*/
   .first p {
     background-color: var(--lightBlue2);
     margin: 5px;
@@ -297,7 +319,7 @@ p {
     text-align: center;
   }
 
-
+/*Sets the position, text color, padding and sets alignment*/
   .LS1 {
     position: absolute;
     color: var(--grey);
@@ -308,6 +330,7 @@ p {
     right: 5%;
   }
 
+  /*Sets the position, text color, padding and sets alignment*/
   .RS1 {
     position: absolute;
     color: var(--grey);
@@ -318,6 +341,7 @@ p {
     right: 5%;
   }
 
+  /*Sets the position, text color, padding and sets alignment*/
   .LS2 {
     position: absolute;
     color: var(--grey);
@@ -328,6 +352,7 @@ p {
     right: 5%;
   }
 
+  /*Sets the background color, margin, padding, text color and aligns the text.*/
   .LS2 p {
     background-color: var(--lightBlue2);
     margin: 5px;
@@ -337,6 +362,7 @@ p {
     text-align: center;
   }
 
+   /*Sets the background color, margin, padding, text color and aligns the text.*/
   .LS1 p {
     background-color: var(--lightBlue2);
     margin: 5px;
@@ -346,6 +372,7 @@ p {
     text-align: center;
   }
 
+   /*Sets the background color, margin, padding, text color and aligns the text.*/
   .RS1 p {
     background-color: var(--lightBlue2);
     margin: 5px;
@@ -355,6 +382,7 @@ p {
     text-align: center;
   }
 
+  /*Sets the position, text color, padding, background color and sets alignment*/
   .RS2 {
     position: absolute;
     color: var(--grey);
@@ -369,7 +397,7 @@ p {
     float: right;
     width: 100%;
     margin: auto;
-    padding: 5% 0 0 0;
+    
   }
 
   .right3 ul li {
@@ -387,7 +415,18 @@ p {
     color: var(--black);
   }
 
-  
+
+  /*Media queries for a smaller screen and moblie*/
+  @media screen and (max-width: 1200px) {
+    /* For smaller screens: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .left3 {
+      font-size: 40px;
+      text-align: center;
+    }
+  }
   
   @media screen and (max-width: 992px) {
     /* For mobile phones: */
@@ -395,12 +434,12 @@ p {
       width: 100%;
     }
     .left3 {
-      font-size: 30px;
-      text-align: left;
+      font-size: 40px;
+      text-align: center;
     }
     .leftside {
-      font-size: 30px;
-      text-align: left;
+      font-size: 40px;
+      text-align: center;
     }
   }
  
